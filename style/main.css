@@ -30,6 +30,7 @@ body {
 
 .one {
   font-size: 4.5rem;
+  color: #ff69b4;
 }
 
 .two {
@@ -91,7 +92,7 @@ body {
 }
 
 .idea-6 span{
-  font-size: 5rem;
+  font-size: 3rem;
   color: #ff69b4;
 }
 
@@ -109,26 +110,21 @@ body {
 }
 
 .six .hat {
-  left: 72%;
-  position: relative;
+  left: 41.5%;
+  position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
 
-/* .photo-b{
-  position: relative;
-  display: inline-block;
-}
 
-.photo-b .hat{
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
+/* @media (max-width: 600px) {
+
+  .six img{
+    width: 90%;
+  }
+
 } */
-
 
 .baloons img {
   display: inline-block;
