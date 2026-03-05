@@ -91,19 +91,26 @@ body {
 .idea-5 span, .idea-6 span, .wish-hbd span {
   display: inline-block;
 }
+/* 
+.idea-6{
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+}
 
 .idea-6 span{
   font-size: 3rem;
   color: #ff69b4;
-}
+} */
 
 @media (max-width: 600px) {
 
 .idea-6 span{
-  font-size: clamp(0.5rem, 8vw, 3rem);
+  font-size: clamp(0.2rem, 6vw, 3rem);
   white-space: nowrap;
   text-align: center;
   display: inline-block;
+    color: #ff69b4;
 }
 
 }
